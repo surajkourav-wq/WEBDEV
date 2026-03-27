@@ -1,54 +1,92 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form</title>
-</head>
-<body>
+  </head>
+  <body>
+    <h1 align="center">User Registration Form</h1>
+
+    <p align="center">
+      This form allows users to register by providing personal details such as <br>
+      <b>name, email, password, gender, age, preferences, occupation,</b> and a <b>short
+      bio</b>. <br> It demonstrates the use of various HTML form elements like text
+      <b>inputs, radio buttons, checkboxes, dropdown lists</b>, and <b>text areas</b>.
+    </p>
+    <hr> <br>
     <h1>Task 3:</h1>
 
     <h1>Registration Form</h1>
 
     <form>
-        <div>
-            <label for="Firstname">First Name:</label>
-            <input type="text" name="Firstname" id="Firstname" placeholder="Enter First Name">
-        </div>
-        <div>
-            <label for="Lastname">Last Name:</label>
-            <input type="text" name="Lastname" id="Lastname" placeholder="Enter Last Name">
-        </div>
-        <div>
-            <label for="Email">Email:</label>
-            <input type="email" name="Email" id="Email" placeholder="Enter Email Assress">
-        </div>
-        <div>
-            <label for="Password">Password:</label>
-            <input type="password" name="Password" id="Password">
-        </div>
-        <label for="Gender">Gender:</label> <br>
-        Male <input type="radio" name="Gender" id="Gender"> <br>
-        Female <input type="radio" name="Gender" id="Gender"> <br>
-        Other <input type="radio" name="Gender" id="Gender"> <br>
-        <div>
-            <label for="Age">Age:</label>
-            <input type="number" name="Age" id="Age">
-        </div>
-        <label for="Preferences">Prefences:</label> <br>
-        Acrylic Painting <input type="checkbox" name="Preefences" id="Prefences"> <br>
-        Oil Painting <input type="checkbox" name="Prefences" id="Prefences"> <br>
-        Water color Painting <input type="checkbox" name="Prefences" id="Prefences"> <br>
-        <label for="Select Occupation">Select Occupation</label>
-        <select id="Select Occupation">Select Occupation
-            <option value="Student">Student</option>
-        </select>
-        <div>
-            <label for="Bio">Bio</label>
-            <textarea name="Bio" id="Bio">Share few lines about yourself...</textarea>
-        </div>
-        <button>RESET</button>
-        <button>SELECT</button>
+      <div>
+        <label for="Firstname">First Name:</label>
+        <input
+          type="text"
+          name="Firstname"
+          id="Firstname"
+          placeholder="Enter First Name"
+        />
+      </div>
+      <div>
+        <label for="Lastname">Last Name:</label>
+        <input
+          type="text"
+          name="Lastname"
+          id="Lastname"
+          placeholder="Enter Last Name"
+        />
+      </div>
+      <div>
+        <label for="Email">Email:</label>
+        <input
+          type="email"
+          name="Email"
+          id="Email"
+          placeholder="Enter Email Assress"
+        />
+      </div>
+      <div>
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" id="Password" />
+      </div>
+      <label for="Gender">Gender:</label> <br />
+      Male <input type="radio" name="Gender" id="Gender" /> <br />
+      Female <input type="radio" name="Gender" id="Gender" /> <br />
+      Other <input type="radio" name="Gender" id="Gender" /> <br />
+      <div>
+        <label for="Age">Age:</label>
+        <input type="number" name="Age" id="Age" />
+      </div>
+      <label for="Preferences">Prefences:</label> <br />
+      Acrylic Painting
+      <input type="checkbox" name="Preefences" id="Prefences" /> <br />
+      Oil Painting <input type="checkbox" name="Prefences" id="Prefences" />
+      <br />
+      Water color Painting
+      <input type="checkbox" name="Prefences" id="Prefences" /> <br />
+      <label for="Select Occupation">Select Occupation</label>
+      <select id="Select Occupation">
+        Select Occupation
+        <option value="Student">Student</option>
+      </select>
+      <div>
+        <label for="Bio">Bio</label>
+        <textarea name="Bio" id="Bio">
+Share few lines about yourself...</textarea
+        >
+      </div>
+      <button>RESET</button>
+      <button>SELECT</button>
     </form>
-</body>
+
+    <h1 align="center">
+      <button><a href="./form_index.html">Back to Form SubIndex</a></button>
+    </h1>
+
+    <h1 align="center">
+      <button><a href="../index.html">Back to Home</a></button>
+    </h1>
+  </body>
 </html>
