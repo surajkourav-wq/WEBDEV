@@ -1,0 +1,21 @@
+#div1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  background-color: blueviolet;
+  display: inline-block;
+}
+
+#span1 {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #000;
+  background-color: orange;
+  display: inline-block;
+}
+
+#h11 {
+  border: 1px solid #000;
+  background-color: skyblue;
+  display: none;
+}
