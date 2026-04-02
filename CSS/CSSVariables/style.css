@@ -1,0 +1,33 @@
+:root {
+    --main-color : rgb(228, 7, 224);
+    --submain-color : skyblue;
+    --text-color : #0f9d03;
+}
+
+#login {
+    background-color: var(--main-color);
+}
+
+#register {
+    background-color: var(--submain-color);
+}
+
+#heading {
+    color: var(--main-color);
+}
+
+#subheading {
+    color: var(--submain-color);
+}
+
+#para {
+    color: var(--text-color);
+}
+
+#tableHead {
+    color: var(--main-color);
+}
+
+.tableData {
+    color: var(--text-color);
+}
