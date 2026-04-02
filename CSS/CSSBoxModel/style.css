@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+DK+Uloopet+Guides&family=Shadows+Into+Light&display=swap");
+
+.abc {
+  border: 5px solid #ff0000;
+  background-color: blue;
+  color: #ffffff;
+  width: 500px;
+  height: 200px;
+  margin: 50px 100px 200px 300px;
+  padding: 50px;
+}
+
+#abc {
+  border: 5px solid #ff0000;
+  background-color: blue;
+  color: #ffffff;
+  width: 500px;
+  height: 200px;
+}
+
+#div1 {
+  border-radius: 20px;
+  box-shadow: 30px 30px 0px 0 rgb(129, 128, 128);
+}
+
+p {
+  color: red;
+  text-shadow: 2px 2px 2px rgb(129, 128, 128);
+  font-family: "Shadows Into Light", cursive, sans-serif;
+  font-size: 100px;
+  font-weight: 900;
+  font-style: italic;
+  font-variant: small-caps;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+h4{
+     line-height: 50px;
+}
