@@ -1,0 +1,30 @@
+/* #outerDiv {
+  border: 1px solid #000;
+  width: 600px;
+  height: 200px;
+  background-color: blue;
+}
+
+.innerDiv {
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  background-color: red;
+  margin: 47px;
+} */
+
+#outerDiv {
+  border: 1px solid #000;
+  width: 800px;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.innerDiv {
+  border: 1px solid #000;
+  width: 100px;
+  height: 100px;
+}
