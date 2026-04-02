@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#Navbar {
+  background-color: rgb(180, 180, 236);
+  display: flex;
+  justify-content: space-between;
+  color: rgb(8, 0, 255);
+  padding: 8px;
+  align-items: center;
+  position: sticky;
+  top: 0px;
+  z-index: 99;
+}
+
+.NavLinks {
+  display: flex;
+  gap: 20px;
+
+  span,
+  p,
+  button {
+    cursor: pointer;
+  }
+}
+
+#help {
+  background-color: red;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+#image {
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  position: relative;
+
+  svg {
+    color: red;
+  }
+}
+
+#info {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
