@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -12,10 +13,11 @@ header {
     align-items: center;
     justify-content: space-between;
     background-color: white;
-    height: 70px;
+    height: 90px;
     width: 98vw;
     position: sticky;
     top: 0;
+    z-index: 999;
 
     .firstPart {
         display: flex;
@@ -52,7 +54,7 @@ header {
             color: white;
             border-radius: 8px;
             text-decoration: none;
-            box-shadow: 4px 4px 0px 1px #81D1F0;
+            box-shadow: 6px 6px 2px 0px #81D1F0;
             padding: 10px;
             width: 135px;
             height: 45px;
@@ -110,7 +112,7 @@ header {
 
             select {
                 width: 360px;
-                height: 55px;
+                height: 75px;
                 border-radius: 5px;
             }
         }
@@ -206,5 +208,47 @@ footer{
         color: white;
         width: 100px;
         height: auto;
+    }
+}
+
+button {
+   transition: all 0.15s ease;
+   box-shadow: 0 4px 0 #999;
+}
+
+button:active {
+   transform: translateY(3px);
+   box-shadow: 0 1px 0 #999;
+}
+
+a:hover {
+   color: #125785;
+}
+
+button:hover {
+   filter: brightness(90%);
+}
+
+input, select {
+   border: 1px solid #ccc;
+   padding: 10px;
+   outline: none;
+}
+
+input:focus {
+   border-color: #125785;
+}
+
+@media screen and (max-width : 990px){
+    .firstPart .anchor {
+        display: none;
+    }
+
+    #contact {
+        display: none;
+    }
+
+    .row1 {
+        flex-direction: column;
     }
 }
