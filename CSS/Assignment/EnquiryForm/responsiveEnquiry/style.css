@@ -348,6 +348,17 @@ footer {
         font-size: 14px;
     }
 
+    .form-item .input,
+    .form-item .email,
+    .form-item .qualifiaction,
+    .form-item .college {
+        width: 90%;
+    }
+
+    .executive input {
+        width: 95%;
+    }
+
     .submit button {
         width: 100%;
     }
