@@ -1,0 +1,12 @@
+#div1{
+    height: 1000px;
+    background-color: aqua;
+    margin: 20px;
+}
+
+
+#div1 p{
+    border: 2px solid black;
+    width: 200px;
+    height: 500px;
+}
