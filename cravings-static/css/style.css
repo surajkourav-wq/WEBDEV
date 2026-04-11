@@ -24,7 +24,7 @@ body {
   height: 64px;
 }
 
-.logo img{
+.logo img {
   width: 88px;
 }
 
@@ -75,8 +75,117 @@ footer a:hover {
   width: 128px;
 }
 
-.col1, .col2, .col3, .col4, .col5 {
+.col1,
+.col2,
+.col3,
+.col4,
+.col5 {
   display: flex;
   flex-direction: column;
 }
 
+.hero {
+  min-height: 85vh;
+  background: url('../images/hero-bg.jpg') center/cover no-repeat;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.hero-content,
+.search-bar {
+  position: relative;
+  z-index: 1;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+.search-bar {
+  background: white;
+  color: var(--color-base-content);
+  padding: 10px 15px;
+  border-radius: 10px;
+  width: 95%;
+  max-width: 900px;
+  height: 47px;
+}
+
+.search-bar input {
+  outline: none;
+  width: 100%;
+  background-color: transparent;
+}
+
+.search-bar input::placeholder {
+  color: var(--color-primary);
+  opacity: 0.6;
+}
+
+.btn-pri {
+  background-color: var(--color-primary);
+  color: var(--color-primary-content);
+  text-decoration: none;
+}
+
+.main {
+  background: linear-gradient(180deg, rgb(211, 61, 1) 0%, rgb(231, 196, 196) 50%, rgb(255, 255, 255) 100%);
+  padding: 5px 14%;
+  color: var(--color-primary-content);
+}
+
+.restaurants img{
+  height: 180px;
+  object-fit: cover;
+}
+
+.content {
+  background-color: var(--color-base-100);
+}
+
+.content p{
+  color: var(--color-base-content);
+}
+
+.cat {
+  display: flex;
+  background-color: var(--color-base-300);
+  color: var(--color-base-content);
+  padding: 6px 3px;
+  font-weight: lighter;
+}
+
+.main button {
+  background-color: var(--color-primary);
+  color: var(--color-primary-content);
+  border: none;
+  padding: 4px 10px;
+}
+
+.rating-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50px; 
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.restaurants {
+  transition: all 0.1s ease-in;
+}
+
+.restaurants:hover {
+  transform: scale(1.04);
+}
