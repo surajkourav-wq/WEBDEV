@@ -145,7 +145,7 @@ footer a:hover {
   color: var(--color-primary-content);
 }
 
-.restaurants img{
+.restaurants img {
   height: 180px;
   object-fit: cover;
 }
@@ -154,7 +154,7 @@ footer a:hover {
   background-color: var(--color-base-100);
 }
 
-.content p{
+.content p {
   color: var(--color-base-content);
 }
 
@@ -177,7 +177,7 @@ footer a:hover {
   position: absolute;
   top: 10px;
   right: 10px;
-  border-radius: 50px; 
+  border-radius: 50px;
   font-size: 14px;
   font-weight: 500;
 }
@@ -188,4 +188,153 @@ footer a:hover {
 
 .restaurants:hover {
   transform: scale(1.04);
+  box-shadow: 0.5px 0.5px 20px gray;
 }
+
+.stats {
+  background-color: var(--color-base-100);
+  padding: 3% 15%;
+
+  p {
+    color: var(--color-base-content);
+  }
+}
+
+.box {
+  background-color: var(--color-primary-content);
+  padding: 32px;
+  margin-bottom: 25px;
+  height: 87%;
+  box-shadow: 0.1px 0.1px 0px 0 gray;
+  transition: all 0.4s ease-in;
+
+  h1 {
+    color: var(--color-primary);
+  }
+
+  p {
+    color: var(--color-base-content);
+  }
+
+  #b2 {
+    color: #D9468F;
+  }
+}
+
+.box:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+  background-color: white;
+  padding: 2% 15%;
+
+  .data {
+    background-color: var(--color-base-100);
+  }
+}
+
+.review button {
+  background-color: var(--color-primary);
+  color: var(--color-primary-content);
+  border: none;
+  padding: 20px;
+  cursor: default;
+}
+
+#b3 {
+  background-color: #D9468F;
+}
+
+.data:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.collab {
+  background-color: var(--color-primary);
+  color: var(--color-primary-content);
+  padding: 5%;
+}
+
+.collab button {
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  color: var(--color-primary);
+}
+
+.abouthero {
+  min-height: 60vh;
+  background: url('../images/aboutPage.png') center/cover no-repeat;
+  position: relative;
+}
+
+.abouthero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+#about-hero img {
+  width: 80px;
+  height: 80px;
+  margin: 18px;
+}
+
+#about-hero span {
+  color: var(--color-primary);
+}
+
+.stats-bar {
+  background-color: var(--color-neutral);
+}
+
+.cont {
+  padding: 28px 18%;
+}
+
+.cont h3 {
+  color: var(--color-primary);
+}
+
+.cont p {
+  color: var(--color-primary-content);
+}
+
+.story {
+    background-color: var(--color-base-100);
+    padding: 250px;
+
+    .st {
+      color: #c2410c;
+    }
+}
+
+.story-card {
+  background-color: var(--color-primary-content);
+  padding: 8px 12px;
+  width: 250px;
+  border-radius: 12px;
+}
+
+.story-card i {
+  color: var(--color-primary);
+}
+
+.values {
+  background-color: var(--color-base-200);
+  padding: 2% 15%;
+}
+
+.stand {
+  color: #c2410c;
+}
+
+.dataa {
+    background-color: var(--color-primary-content);
+
+    div {
+      color: #c2410c;
+    }
+  }
