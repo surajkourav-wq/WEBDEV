@@ -412,3 +412,15 @@ form input,button {
 .info:focus {
   outline-color: var(--color-primary);
 }
+
+.feedback {
+  height: 90vh;
+  background-image: url(../images/FeedbackPage.jpeg);
+  background-size: cover;
+  padding-right: 8%;
+}
+
+.opt {
+  padding: 10px;
+  border-radius: 6px;
+}
