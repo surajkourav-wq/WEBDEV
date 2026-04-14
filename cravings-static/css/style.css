@@ -59,6 +59,7 @@ footer a {
   opacity: 0.9;
   display: block;
   margin-bottom: 6px;
+  font-size: small;
 }
 
 footer a:hover {
@@ -67,8 +68,14 @@ footer a:hover {
 
 .footgrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(5, 1fr);
   gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .footgrid {
+    grid-template-columns: 1fr;
+  }
 }
 
 .col1 img {
@@ -180,6 +187,10 @@ footer a:hover {
   border-radius: 50px;
   font-size: 14px;
   font-weight: 500;
+  background: var(--color-primary);
+  color: white;
+  border: none;
+  padding: 4px 10px;
 }
 
 .restaurants {
@@ -291,7 +302,7 @@ footer a:hover {
 }
 
 .cont {
-  padding: 28px 18%;
+  padding: 1% 11%;
 }
 
 .cont h3 {
@@ -304,7 +315,7 @@ footer a:hover {
 
 .story {
     background-color: var(--color-base-100);
-    padding: 250px;
+    padding: 15%;
 
     .st {
       color: #c2410c;
@@ -314,12 +325,17 @@ footer a:hover {
 .story-card {
   background-color: var(--color-primary-content);
   padding: 8px 12px;
-  width: 250px;
   border-radius: 12px;
 }
 
 .story-card i {
   color: var(--color-primary);
+}
+
+@media (max-width: 1000px) {
+  .story {
+    padding: 1% 4%;
+  }
 }
 
 .values {
@@ -329,6 +345,9 @@ footer a:hover {
 
 .stand {
   color: #c2410c;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 14px;
 }
 
 .dataa {
@@ -337,4 +356,59 @@ footer a:hover {
     div {
       color: #c2410c;
     }
+}
+
+.team {
+  background-color: var(--color-base-100);
+  padding: 2% 15%;
+
+  button {
+    background-color: var(--color-primary);
+    color: var(--color-primary-content);
+    padding: 28px;
+    border: none;
+    font-size: larger;
+    cursor: n-resize;
   }
+}
+
+.active-pill {
+  background: var(--color-primary);
+  color: white;
+}
+
+.contact {
+  height: 90vh;
+  background-image: url(../images/contactPage.jpg);
+  padding-left: 8%;
+}
+
+.contact-main {
+  background-color: white;
+  padding: 25px 35px;
+  max-width: 420px;
+  width: 100%;
+  padding: 25px;
+  border-radius: 12px;
+
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.head {
+  color: var(--color-primary);
+}
+
+form input,button {
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.btn-submit {
+  background-color: var(--color-primary);
+  color: var(--color-primary-content);
+}
+
+.info:focus {
+  outline-color: var(--color-primary);
+}
