@@ -82,11 +82,7 @@ footer a:hover {
   width: 128px;
 }
 
-.col1,
-.col2,
-.col3,
-.col4,
-.col5 {
+.col1, .col2, .col3, .col4, .col5 {
   display: flex;
   flex-direction: column;
 }
@@ -104,8 +100,7 @@ footer a:hover {
   background: rgba(0, 0, 0, 0.4);
 }
 
-.hero-content,
-.search-bar {
+.hero-content, .search-bar {
   position: relative;
   z-index: 1;
 }
@@ -154,7 +149,7 @@ footer a:hover {
 
 .restaurants img {
   height: 180px;
-  object-fit: cover;
+  background-size: cover;
 }
 
 .content {
@@ -400,8 +395,7 @@ footer a:hover {
   color: var(--color-primary);
 }
 
-form input,
-button {
+form input, button {
   padding: 10px;
   border-radius: 6px;
 }
@@ -427,3 +421,39 @@ button {
   padding: 10px;
   border-radius: 6px;
 }
+
+.help-hero {
+  background: url(../images/HelpPage.jpg) center/cover;
+  height: 90vh;
+  position: relative;
+}
+
+.help-content {
+  position: relative;
+  z-index: 1;
+  width: 85%;
+  max-width: 1000px;
+  padding: 2% 3%;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(7px);
+  color: white;
+  max-height: 88vh;
+  overflow: auto;
+}
+
+.faq {
+  cursor: pointer;
+}
+
+.form-faq input, select, textarea{
+  background-color: #A9ABAD;
+}
+
+.faq-btn:hover {
+  background-color: #A9ABAD;
+}
+
+
+
+
