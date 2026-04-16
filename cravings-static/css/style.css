@@ -385,7 +385,6 @@ footer a:hover {
   width: 100%;
   padding: 25px;
   border-radius: 12px;
-
   max-height: 85vh;
   overflow-y: auto;
 }
@@ -394,7 +393,7 @@ footer a:hover {
   color: var(--color-primary);
 }
 
-form input, button {
+form input, form button {
   padding: 10px;
   border-radius: 6px;
 }
@@ -460,12 +459,14 @@ form input, button {
 
 .login-main {
   max-width: 445px;
+  max-height: fit-content;
   padding: 2% 3%;
 }
 
 .login-a {
   color: #c2410c;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .login-a:hover {
@@ -477,6 +478,27 @@ form input, button {
   height: 1px;
   background-color: #191818;
   margin: 0 10px;
+}
+
+.eye-icon {
+  right: 12px;
+  top: 48%;
+  color: gray;
+  cursor: pointer;
+}
+
+.register {
+  background: url(../images/foodTable.webp) center/cover no-repeat;
+}
+
+.register-main {
+  height: 90vh;
+  input {
+    padding: 8px;
+  }
+  button {
+    padding: 14px;
+  }
 }
 
 
