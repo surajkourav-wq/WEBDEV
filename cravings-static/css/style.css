@@ -381,7 +381,6 @@ footer a:hover {
 
 .contact-main {
   background-color: white;
-  padding: 25px 35px;
   max-width: 420px;
   width: 100%;
   padding: 25px;
@@ -410,11 +409,8 @@ form input, button {
 }
 
 .feedback {
-  height: 90vh;
   background-image: url(../images/FeedbackPage.jpeg);
   background-size: cover;
-  padding-right: 8%;
-  padding-left: 8%;
 }
 
 .opt {
@@ -458,6 +454,30 @@ form input, button {
   border: 0.5px solid var(--color-base-300);
 }
 
+.login {
+  background: url(../images/foodTable.webp) center/cover no-repeat;
+}
+
+.login-main {
+  max-width: 445px;
+  padding: 2% 3%;
+}
+
+.login-a {
+  color: #c2410c;
+  text-decoration: none;
+}
+
+.login-a:hover {
+  text-decoration: underline;
+}
+
+.ab {
+  flex: 1;
+  height: 1px;
+  background-color: #191818;
+  margin: 0 10px;
+}
 
 
 
