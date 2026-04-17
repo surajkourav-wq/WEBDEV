@@ -503,7 +503,6 @@ form input, form button {
 .foot-nav {
   background: url(../images/commonBG.avif) center/cover;
   min-height: 45vh;
-  position: relative;
 }
 
 .foot-nav::before {
@@ -513,16 +512,46 @@ form input, form button {
   background: rgba(0, 0, 0, 0.55);
 }
 
-.cnt {
-  position: relative;
-  z-index: 1;
-}
-
 .foot-sec {
-  position: relative;
-  z-index: 1;
+  max-width: 624px;
 }
 
+.sec-wid {
+  width: 740px;
+  line-height: 25px;
+  padding: 48px 24px 24px 24px;
+}
+
+.cnt {
+  color: white;
+}
+
+.foot-sec-2 {
+  background-color: var(--color-base-100);
+}
+
+.cmn-btn{
+  background-color: var(--color-base-100);
+  border: 1px solid var(--color-base-300);
+}
+
+.cmn-btn:hover {
+  background-color: var(--color-base-200);
+}
+
+.btn-txt {
+  color: var(--color-neutral);
+}
+
+.foot-sec-3 {
+  background-color: var(--color-primary);
+  color: var(--color-primary-content);
+  padding: 48px 24px;
+
+  a {
+  text-decoration: none;
+}
+}
 
 
 
