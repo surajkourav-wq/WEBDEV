@@ -234,7 +234,6 @@ footer a:hover {
 .review {
   background-color: white;
   padding: 2% 15%;
-
   .data {
     background-color: var(--color-base-100);
   }
@@ -500,6 +499,31 @@ form input, form button {
     padding: 14px;
   }
 }
+
+.foot-nav {
+  background: url(../images/commonBG.avif) center/cover;
+  min-height: 45vh;
+  position: relative;
+}
+
+.foot-nav::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.cnt {
+  position: relative;
+  z-index: 1;
+}
+
+.foot-sec {
+  position: relative;
+  z-index: 1;
+}
+
+
 
 
 
