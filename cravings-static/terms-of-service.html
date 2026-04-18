@@ -1,98 +1,245 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cravings</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
     <!-- header -->
     <nav
-        class="navbar sticky-top d-flex align-items-center justify-content-between px-5"
-      >
-        <div class="logo">
-          <a href="./index.html">
-            <img src="./images/logo-light.png" alt="Logo" />
-          </a>
-        </div>
+      class="navbar sticky-top d-flex align-items-center justify-content-between px-5"
+    >
+      <div class="logo">
+        <a href="./index.html">
+          <img src="./images/logo-light.png" alt="Logo" />
+        </a>
+      </div>
 
-        <div
-          class="link d-flex align-items-center justify-content-center gap-2"
+      <div class="link d-flex align-items-center justify-content-center gap-2">
+        <a class="text-decoration-none" id="login" href="./login.html">Login</a>
+        <a class="btn btn-light" id="register" href="./register.html"
+          >Register</a
         >
-          <a class="text-decoration-none" id="login" href="./login.html"
-            >Login</a
+      </div>
+    </nav>
+
+    <section
+      class="foot-nav position-relative d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="foot-sec position-relative z-1 d-flex align-items-center justify-content-center flex-column"
+      >
+        <i class="bi bi-file-earmark-text-fill display-5 mt-2 mb-2 head"></i>
+        <h1 class="cnt fw-bolder display-5">
+          Terms of <span class="head">Service</span>
+        </h1>
+        <p class="cnt text-center opacity-75">
+          Please read these terms carefully before using the Cravings platform.
+        </p>
+        <p class="text-center cnt opacity-50 small">
+          Last updated: April 9, 2026
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="foot-sec-2 d-flex align-items-center justify-content-center"
+    >
+      <div class="text-center sec-wid">
+        <p class="text-muted small">
+          These Terms of Service ("Terms") govern your access to and use of the
+          <strong class="text-black">Cravings</strong> platform, including our
+          website and mobile applications. By creating an account or placing an
+          order, you agree to be bound by these Terms. If you do not agree,
+          please do not use our services.
+        </p>
+      </div>
+    </section>
+
+    <section
+      class="foot-sec-2 d-flex align-items-center justify-content-center"
+    >
+      <div class="sec-wid pt-4">
+        <button
+          type="button"
+          class="w-100 d-flex align-items-center justify-content-between px-3 py-3 rounded-4 mb-3 cmn-btn"
+        >
+          <span
+            ><i class="bi bi-person-check-fill head fs-5"></i>
+            <span class="btn-txt ms-2 fw-semibold small"
+              >1. User Accounts</span
+            ></span
           >
-          <a class="btn btn-light" id="register" href="./register.html"
-            >Register</a
+          <span><i class="bi bi-chevron-down"></i></span>
+        </button>
+
+        <button
+          class="w-100 d-flex align-items-center justify-content-between px-3 py-3 rounded-4 mb-3 cmn-btn"
+        >
+          <span
+            ><i class="bi bi-cart-fill head fs-5"></i
+            ><span class="btn-txt ms-2 fw-semibold small"
+              >2. Orders & Payments</span
+            ></span
           >
-        </div>
-      </nav>
+          <span><i class="bi bi-chevron-down"></i></span>
+        </button>
 
-      <!-- footer -->
-      <footer class="py-4">
-        <div>
-          <p class="text-center mb-5">
-            --- Your favorite food delivery platform connecting customers with
-            restaurants and riders. ---
-          </p>
+        <button
+          class="w-100 d-flex align-items-center justify-content-between px-3 py-3 rounded-4 mb-3 cmn-btn"
+        >
+          <span
+            ><i class="bi bi-bicycle head fs-5"></i
+            ><span class="btn-txt ms-2 fw-semibold small"
+              >3. Rider Terms</span
+            ></span
+          >
+          <span><i class="bi bi-chevron-down"></i></span>
+        </button>
 
-          <div class="footgrid">
-            <div class="col1">
-              <img
-                class="mb-4"
-                src="./images/logo-circle.png"
-                alt="Cravings logo"
-              />
-            </div>
+        <button
+          class="w-100 d-flex align-items-center justify-content-between px-3 py-3 rounded-4 mb-3 cmn-btn"
+        >
+          <span
+            ><i class="bi bi-shop-window head fs-5"></i
+            ><span class="btn-txt ms-2 fw-semibold small"
+              >4. Restaurant Partners</span
+            ></span
+          >
+          <span><i class="bi bi-chevron-down"></i></span>
+        </button>
 
-            <div class="col2">
-              <h5 class="mb-4">Quick links</h5>
-              <a class="mb-2" href="./index.html">Home</a>
-              <a class="mb-2" href="./about.html">About</a>
-              <a class="mb-2" href="./order-now.html">Order Now</a>
-            </div>
+        <button
+          class="w-100 d-flex align-items-center justify-content-between px-3 py-3 rounded-4 mb-3 cmn-btn"
+        >
+          <span
+            ><i class="bi bi-slash-circle head fs-5"></i
+            ><span class="btn-txt ms-2 fw-semibold small"
+              >5. Prohibited Conduct</span
+            ></span
+          >
+          <span><i class="bi bi-chevron-down"></i></span>
+        </button>
 
-            <div class="col3">
-              <h5 class="mb-4">For Restaurants</h5>
-              <a class="mb-2" href="./register.html">Partner With Us</a>
-              <a class="mb-2" href="./about.html">Restaurant Dashboard</a>
-            </div>
+        <button
+          class="w-100 d-flex align-items-center justify-content-between px-3 py-3 rounded-4 mb-3 cmn-btn"
+        >
+          <span
+            ><i class="bi bi-ui-checks head fs-5"></i
+            ><span class="btn-txt ms-2 fw-semibold small"
+              >6. Limitation of Liability</span
+            ></span
+          >
+          <span><i class="bi bi-chevron-down"></i></span>
+        </button>
 
-            <div class="col4">
-              <h5 class="mb-4">For Riders</h5>
-              <a class="mb-2" href="./register.html">Become a Rider</a>
-              <a class="mb-2" href="./about.html">Rider Dashboard</a>
-            </div>
+        <button
+          class="w-100 d-flex align-items-center justify-content-between px-3 py-3 rounded-4 mb-3 cmn-btn"
+        >
+          <span
+            ><i class="bi bi-x-circle-fill head fs-5"></i
+            ><span class="btn-txt ms-2 fw-semibold small"
+              >7. Termination</span
+            ></span
+          >
+          <span><i class="bi bi-chevron-down"></i></span>
+        </button>
 
-            <div class="col5">
-              <h5 class="mb-4">Feedback & Support</h5>
-              <a class="mb-2" href="./feedback.html">Submit Feedback</a>
-              <a class="mb-2" href="./help-center.html">Help Center</a>
-              <a class="mb-2" href="./contact.html">Contact Us</a>
-            </div>
+        <p class="small opacity-75 pt-4 text-center">
+          Your use of Cravings is also governed by our <a href="./privacy-policy.html" class="login-a">Privacy Policy</a>, which is
+          incorporated into these Terms by reference.
+        </p>
+      </div>
+    </section>
+
+    <section class="foot-sec-3">
+      <div class="text-center">
+        <i class="bi bi-envelope-fill fs-2"></i>
+        <h4 class="fw-bold pt-2">Have questions about our Terms?</h4>
+        <p class="opacity-75 pb-2 small">
+          Our legal team is happy to help. Send us an email and we'll get back to <br> you within 2 business days.
+        </p>
+        <a
+          href="mailto:contact@cravings.com"
+          class="text-light fw-semibold small"
+          >contact@cravings.com</a
+        >
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="py-4">
+      <div>
+        <p class="text-center mb-5">
+          --- Your favorite food delivery platform connecting customers with
+          restaurants and riders. ---
+        </p>
+
+        <div class="footgrid">
+          <div class="col1">
+            <img
+              class="mb-4"
+              src="./images/logo-circle.png"
+              alt="Cravings logo"
+            />
           </div>
 
-          <div class="border border-top my-4"></div>
+          <div class="col2">
+            <h5 class="mb-4">Quick links</h5>
+            <a class="mb-2" href="./index.html">Home</a>
+            <a class="mb-2" href="./about.html">About</a>
+            <a class="mb-2" href="./order-now.html">Order Now</a>
+          </div>
 
-          <div class="d-flex align-items-center justify-content-between">
-            <div>
-              <p>© 2026 Cravings. All rights reserved.</p>
-            </div>
-            <div class="d-flex gap-4">
-              <a href="./privacy-policy.html">Privacy Policy</a>
-              <a href="./terms-of-service.html">Terms of Service</a>
-              <a href="./sitemap.html">Site Map</a>
-            </div>
+          <div class="col3">
+            <h5 class="mb-4">For Restaurants</h5>
+            <a class="mb-2" href="./register.html">Partner With Us</a>
+            <a class="mb-2" href="./about.html">Restaurant Dashboard</a>
+          </div>
+
+          <div class="col4">
+            <h5 class="mb-4">For Riders</h5>
+            <a class="mb-2" href="./register.html">Become a Rider</a>
+            <a class="mb-2" href="./about.html">Rider Dashboard</a>
+          </div>
+
+          <div class="col5">
+            <h5 class="mb-4">Feedback & Support</h5>
+            <a class="mb-2" href="./feedback.html">Submit Feedback</a>
+            <a class="mb-2" href="./help-center.html">Help Center</a>
+            <a class="mb-2" href="./contact.html">Contact Us</a>
           </div>
         </div>
-      </footer>
 
+        <div class="border border-top my-4"></div>
 
+        <div class="d-flex align-items-center justify-content-between">
+          <div>
+            <p>© 2026 Cravings. All rights reserved.</p>
+          </div>
+          <div class="d-flex gap-4">
+            <a href="./privacy-policy.html">Privacy Policy</a>
+            <a href="./terms-of-service.html">Terms of Service</a>
+            <a href="./sitemap.html">Site Map</a>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
