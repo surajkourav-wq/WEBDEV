@@ -89,20 +89,33 @@ footer a:hover {
 
 .hero {
   min-height: 85vh;
-  background: url('../images/hero-bg.jpg') center/cover no-repeat;
+  width: 100%;
   position: relative;
+  overflow: hidden;
+}
+
+.hero-carousel {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
 }
 
 .hero::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1;
 }
 
-.hero-content, .search-bar {
+.hero-img {
+  object-fit: cover;
+}
+
+.hero-content,
+.search-bar {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .hero h1 {
