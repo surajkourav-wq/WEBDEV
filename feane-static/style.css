@@ -1,0 +1,10 @@
+.hero {
+    background: url(./images/hero-bg.jpg) center/cover;
+    height: 85vh;
+}
+
+.hero-cont {
+    height: 60vh;
+    width: 30%;
+    margin-left: 10%;
+}
