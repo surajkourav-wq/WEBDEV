@@ -27,3 +27,16 @@ console.log(typeof a);
 console.log(typeof b);
 console.log(typeof c);
 
+let p = 5;
+let q = 10;
+
+console.log(p==q);
+console.log(p===q);
+
+console.log(typeof p);
+console.log(typeof q);
+
+
+
+
+
