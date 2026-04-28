@@ -35,6 +35,21 @@ console.log(p>=q);
 console.log(q!=p);
 console.log(p<=q);
 
+console.log(p==q);
+console.log(p===q);
+
+let s = 10;
+let t = 10;
+
+console.log(s<t);
+console.log(s==t);
+console.log(s>=t);
+
+
+
+
+
+
 
 
 
