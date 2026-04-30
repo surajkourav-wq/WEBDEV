@@ -18,24 +18,17 @@ for(let i =10; i>=1;i-- ){
 }
 
 //Print even numbers from 2 to 10
-for(let i = 1; i<=11; i++)
+for(let i = 2; i<=10; i+=2)
 {
-    if(i%2==0){
-        console.log(i);
-        
-    }
+    console.log(i);  
 }
 
 //Print odd numbers from 1 to 9. 
-for(let i = 1; i<10; i++){
-    if(i%2!==0){
+for(let i = 1; i<10; i+=2){
         console.log(i);
-        
-    }
 }
 
 //Print numbers from 1 to 20 with increment of 2
-
 for(let i = 1; i<20; i+=2){
     
     console.log(i);
