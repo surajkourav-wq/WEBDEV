@@ -118,3 +118,15 @@ switch (choice) {
     console.log("paani");
   }
 }
+
+let garde = 95;
+
+if (garde >= 90) {
+  console.log("A");
+} else if (garde >= 75) {
+  console.log("B");
+} else if (garde >= 50) {
+  console.log("C");
+} else {
+  console.log("Fail");
+}
