@@ -119,6 +119,26 @@ switch (choice) {
   }
 }
 
+let select = 1;
+
+switch (select) {
+  case 1: {
+    console.log("Tea");
+    break;
+  }
+  case 2: {
+    console.log("Coffee");
+    break;
+  }
+  case 3: {
+    console.log("Lassi");
+    break;
+  }
+  default: {
+    console.log("paani");
+  }
+}
+
 let garde = 95;
 
 if (garde >= 90) {
