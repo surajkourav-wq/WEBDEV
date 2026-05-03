@@ -75,8 +75,9 @@ if (marks >= 90) {
 
 let usrn = "abcd";
 let pass = "1234";
+let email = "suraj094@gmail.com"
 
-if (usrn === "abcd" && pass === "1234") {
+if (usrn === "abcd" && pass === "1234" && email==="suraj094@gmail.com") {
   console.log("login success");
 } else {
   console.log("login failed");
