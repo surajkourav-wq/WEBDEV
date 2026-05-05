@@ -45,10 +45,10 @@ console.log(arr1.indexOf(32));
 console.log(arr1.includes(45));
 
 // array sorting
-console.log(arr1.sort());
+console.log("sort : "+arr1.sort());
 
 // sort in desecending order
-console.log(arr1.reverse());
+console.log("reverse : "+arr1.reverse());
 
 let array = [10, 78, 95, 52, 64, 57];
 
