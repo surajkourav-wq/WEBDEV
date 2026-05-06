@@ -48,9 +48,17 @@ console.log(arr1.includes(45));
 console.log("sort : "+arr1.sort());
 
 // sort in desecending order
-console.log("reverse : "+arr1.reverse());
+console.log("reverse : " + arr1.reverse());
 
 let array = [10, 78, 95, 52, 64, 57];
+
+console.log(array.sort());
+// used for sorting
+array.sort((a, b) => a - b);
+
+console.log(array.find((val) => val > 10));
+console.log(array.findIndex((val) => val > 10));
+console.log(array.findLastIndex((val) => val > 10));
 
 // for each
 array.forEach((element) => {
@@ -59,4 +67,20 @@ array.forEach((element) => {
 
 // length of array
 console.log(array.length);
+
+let ar = [15, 43, 67, 23, 45, 67, 23, 65, 98];
+console.log(ar.filter((val) => val > 50));
+
+console.log(ar.slice(2,5));
+
+let ab = "this is web devlopment class";
+
+console.log(ab);
+console.log(ab.split(" "));
+
+let abc = "this-is-web-devlopment-class";
+console.log(abc.split("-"));
+
+
+
 
