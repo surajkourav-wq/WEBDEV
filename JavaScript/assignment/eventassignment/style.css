@@ -1,0 +1,21 @@
+#table{
+    display: flex;
+    border: 2px solid black;
+
+
+}
+
+#left{
+    width: 70%;
+    border-right: 2px solid black;
+}
+
+#right{
+    width: 30%;
+}
+#btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}

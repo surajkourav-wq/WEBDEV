@@ -81,6 +81,31 @@ console.log(ab.split(" "));
 let abc = "this-is-web-devlopment-class";
 console.log(abc.split("-"));
 
+let str = "this is a string";
+
+console.log(str.charAt(5));
+console.log(str.toUpperCase());
+console.log(str.toLowerCase());
+
+let a = 3.14;
+console.log(a);
+console.log(typeof a);
+let b = a.toString();
+console.log(b);
+console.log(typeof b);
+
+let c = 3.1444444444444444444444
+
+console.log(c.toFixed(3));
+
+
+
+
+
+
+
+
+
 
 
 
