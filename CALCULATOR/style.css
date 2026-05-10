@@ -1,0 +1,25 @@
+body {
+    background-image: url(https://learn.ricr.in/pluginfile.php/6753/mod_page/content/8/CalculatorBGImage.png);
+    height: 100vh;
+}
+
+.top {
+    background-color: #D1E7DD;
+    width: 330px;
+    height: 100px;
+}
+
+.down {
+    background-color: #F8D7DA;
+    width: 330px;
+}
+
+.cmnbtn {
+    border-radius: 50%;
+    width: 50px;
+}
+
+.btnylw {
+    border-radius: 50%;
+    width: 50px;
+}
