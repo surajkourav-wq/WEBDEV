@@ -1,0 +1,36 @@
+#calculatorBG {
+  height: 100vh;
+  background: url("https://learn.ricr.in/pluginfile.php/6753/mod_page/content/8/CalculatorBGImage.png");
+}
+
+#calculator {
+  width: 400px;
+  height: 600px;
+}
+
+#dispaly {
+  height: 25%;
+}
+
+#numPad {
+  height: 74%;
+}
+
+.numPadButtons {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+#equalButton {
+  width: 140px;
+  height: 70px;
+}
+
+button:active {
+  box-shadow: none !important;
+}
+
+label {
+  width: 100%;
+}
