@@ -24,8 +24,8 @@ function Calculate(data) {
   }
 }
 
-let display = document.getElementById("text");
-let expression = "";
+const display = document.getElementById("text");
+const expression = "";
 
 function Calculate(value) {
   if (value === "AC") {
