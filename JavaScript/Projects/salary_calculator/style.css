@@ -1,0 +1,22 @@
+body {
+        background: #f4f7fb;
+      }
+
+      .card {
+        border-radius: 15px;
+      }
+
+      .result-box {
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        padding: 15px;
+      }
+
+      .btn-primary:hover {
+        background-color: #0b5ed7;
+      }
+
+      .success-text {
+        color: green;
+        font-weight: 500;
+      }
