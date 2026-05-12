@@ -1,4 +1,3 @@
-// Random number generated when page loads
 const secretNumber = Math.floor(Math.random() * 10) + 1;
 
 function checkGuess() {
