@@ -16,7 +16,7 @@ function calculateGrossSalary(basic) {
   let da = 0;
 
   hra = basic * 0.20;
-  da = basic * 0.80;
+  da = basic * 0.10;
 
   const gross = basic + hra + da;
 
