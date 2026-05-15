@@ -91,14 +91,12 @@ function validateData(data) {
   }
 
   if (data.Reference == "") {
-    document.getElementById("referenceError").innerText =
-      "Select an option";
+    document.getElementById("referenceError").innerText = "Select an option";
     isValid = false;
   }
 
   if (data.Gender == "") {
-    document.getElementById("genderError").innerText =
-      "Select an option";
+    document.getElementById("genderError").innerText = "Select an option";
     isValid = false;
   }
 
@@ -142,20 +140,12 @@ function validateData(data) {
   }
 
   if (data.Marks == "") {
-    document.getElementById("gradeError").innerText =
-      "Enter a valid grade";
+    document.getElementById("gradeError").innerText = "Enter a valid grade";
     isValid = false;
   }
 
   if (data.Course == "") {
-    document.getElementById("courseError").innerText =
-      "Select a course";
-    isValid = false;
-  }
-
-  if (data.Timings == "") {
-    document.getElementById("timingError").innerText =
-      "Select a batch timing";
+    document.getElementById("courseError").innerText = "Select a course";
     isValid = false;
   }
 
