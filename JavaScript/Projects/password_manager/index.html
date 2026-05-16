@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Manager</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body class="bg-dark text-light">
+    <header class="bg-primary text-light p-3 text-center">
+      <h1>Password Manager</h1>
+    </header>
+
+    <main>
+      <div class="w-50 mx-auto rounded border p-3 mt-4">
+        <form class="d-grid gap-3" id="passForm">
+          <input
+            type="text"
+            name="siteName"
+            id="siteName"
+            placeholder="Enter the site name"
+            class="form-control"
+          />
+          <input
+            type="text"
+            name="userName"
+            id="userName"
+            placeholder="Enter your user name"
+            class="form-control"
+          />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your password"
+            class="form-control"
+          />
+
+          <div class="d-flex align-items-center justify-content-center gap-3">
+            <button class="btn btn-outline-primary" type="submit">Save</button>
+            <button class="btn btn-outline-danger" type="reset">Clear</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
