@@ -11,10 +11,10 @@ document.getElementById("passFrom").addEventListener("submit", (event) => {
     Password: password,
   };
 
-  const wbName = document.getElementById("siteName").value;
-  console.log(webSiteName);
-  console.log(userName);
-  console.log(password);
+  // const wbName = document.getElementById("siteName").value;
+  // console.log(webSiteName);
+  // console.log(userName);
+  // console.log(password);
 
   saveToLocalStorage(packet);
 

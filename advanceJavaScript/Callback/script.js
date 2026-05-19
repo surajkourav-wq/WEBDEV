@@ -38,4 +38,4 @@ willDoSomething(5, 6, sum);
 
 willDoSomething(5, 6, (r, s) => {
   return r * s;
-});
+}); 
