@@ -5,14 +5,10 @@ async function getWeather() {
 
   const { Lattitude, Longitude } = await getGeoLocation(cityName);
 
-  //   console.log({ Lattitude, Longitude });
-
   const WEATHER_API = `https://api.openweathermap.org/data/2.5/weather?lat=${Lattitude}&lon=${Longitude}&appid=${API_KEY}`;
 
   const response = await fetch(WEATHER_API);
   const data = await response.json();
-
-  //console.log(data);
 
   const temperature = data.main.temp - 273.15;
   const feels_like = data.main.feels_like - 273.15;
@@ -27,8 +23,6 @@ async function getGeoLocation(city) {
 
   const response = await fetch(GEO_LOC_API);
   const data = await response.json();
-
-  //   console.log(data);
 
   const Lattitude = data[0].lat;
   const Longitude = data[0].lon;
