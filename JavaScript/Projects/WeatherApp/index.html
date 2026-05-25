@@ -14,21 +14,94 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="bg-info">
-    <header class="bg-primary text-light p-2 text-center">
-      <h2>Mausam ka haal</h2>
+  <body>
+    <header class="bg-dark text-light p-3 text-center shadow">
+      <h2 class="fw-bold">
+        <i class="bi bi-cloud-sun-fill text-warning"></i>
+        Mausam ka haal
+      </h2>
     </header>
 
-    <div class="container card w-50 align-items-center p-5 d-flex justify-content-center mt-4 flex-column align-items-center gap-3">
-      <div>
-        <input type="text" id="cityName" placeholder="Enter City/State Name" class=""/>
-        <button onclick="getWeather()" class="btn btn-warning ">Get Weather</button>
+    <div
+      class="container card border-0 shadow-lg rounded-4 w-50 p-5 d-flex justify-content-center mt-5 align-items-center gap-4"
+    >
+      <div class="d-flex gap-2 w-100">
+        <input
+          type="text"
+          id="cityName"
+          class="form-control form-control-lg"
+          placeholder="Enter City/State Name"
+        />
+
+        <button onclick="getWeather()" class="btn btn-warning fw-bold px-4">
+          Search
+        </button>
       </div>
 
-      <div class="d-flex flex-column gap-3">
-        <label>Temp : <span id="Temperature"></span>ºC</label>
-        <label>Feels Like : <span id="feels"></span>ºC</label>
+      <div class="text-center">
+        <h1 class="display-3 fw-bold text-primary">
+          <span id="Temperature"></span>ºC
+        </h1>
+
+        <!-- <h4 class="text-secondary">
+          <span id="weather"></span>
+        </h4> -->
+
+        <p class="text-muted text-capitalize">
+          <span id="type"></span>
+        </p>
+      </div>
+
+      <div
+        class="d-flex flex-column justify-content-between align-items-center gap-4 w-100"
+      >
+        <div class="d-flex justify-content-between gap-4 w-100">
+          <div
+            class="bg-light rounded-4 p-4 w-50 d-flex flex-column gap-2 shadow-sm"
+          >
+            <label class="fw-semibold">
+              <i class="bi bi-thermometer-half text-danger"></i>
+              Feels Like :
+              <span id="feels"></span>ºC
+            </label>
+
+            <label class="fw-semibold">
+              <i class="bi bi-thermometer-low text-info"></i>
+              Min Temp :
+              <span id="min_temp"></span>ºC
+            </label>
+
+            <label class="fw-semibold">
+              <i class="bi bi-moisture text-primary"></i>
+              Humidity :
+              <span id="humid"></span>%
+            </label>
+          </div>
+
+          <div
+            class="bg-light rounded-4 p-4 w-50 d-flex flex-column gap-2 shadow-sm"
+          >
+            <label class="fw-semibold">
+              <i class="bi bi-wind text-success"></i>
+              Speed :
+              <span id="speed"></span> km/h
+            </label>
+
+            <label class="fw-semibold">
+              <i class="bi bi-thermometer-high text-warning"></i>
+              Max Temp :
+              <span id="max_temp"></span>ºC
+            </label>
+
+            <label class="fw-semibold">
+              <i class="bi bi-cloud-fill text-secondary"></i>
+              Weather :
+              <span id="weather"></span>
+            </label>
+          </div>
+        </div>
       </div>
     </div>
 

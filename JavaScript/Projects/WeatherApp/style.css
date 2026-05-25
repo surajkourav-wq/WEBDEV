@@ -1,0 +1,8 @@
+body {
+    background: url(weather_bg.jpg);
+    background-size: cover;
+}
+
+.weatDiv {
+    line-height: 40px;
+}
