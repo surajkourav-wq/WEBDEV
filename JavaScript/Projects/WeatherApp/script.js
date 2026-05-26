@@ -1,4 +1,4 @@
-const API_KEY = "f4fb80e51cf03e51717fbfa62965a7e9";
+const API_KEY = "Enter Your API Key";
 
 async function getWeather() {
   const cityName = document.getElementById("cityName").value.trim();
@@ -45,4 +45,8 @@ async function getGeoLocation(city) {
 
 document.addEventListener("keydown", function (event) {
   const key = event.key;
+
+  if (key === "Enter") {
+    getWeather();
+  }
 });

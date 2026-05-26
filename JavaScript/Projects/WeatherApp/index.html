@@ -17,87 +17,123 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="bg-dark text-light p-3 text-center shadow">
-      <h2 class="fw-bold">
-        <i class="bi bi-cloud-sun-fill text-warning"></i>
+    <header
+      class="bg-dark bg-gradient text-light p-3 text-center shadow-lg border-bottom border-warning border-3"
+    >
+      <h2 class="fw-bold m-0">
+        <i class="bi bi-cloud-sun-fill text-warning me-2"></i>
         Mausam ka haal
       </h2>
     </header>
 
     <div
-      class="container card border-0 shadow-lg rounded-4 w-50 p-5 d-flex justify-content-center mt-5 align-items-center gap-4"
+      class="container card border-0 shadow-lg rounded-5 w-50 mt-5 p-4 bg-white"
     >
-      <div class="d-flex gap-2 w-100">
+      <div class="d-flex gap-2 mb-4">
         <input
           type="text"
           id="cityName"
-          class="form-control form-control-lg"
+          class="form-control form-control-lg rounded-4 shadow-sm"
           placeholder="Enter City/State Name"
         />
 
-        <button onclick="getWeather()" class="btn btn-warning fw-bold px-4">
+        <button
+          onclick="getWeather()"
+          class="btn btn-warning fw-bold px-4 rounded-4 shadow-sm"
+        >
+          <i class="bi bi-search"></i>
           Search
         </button>
       </div>
 
-      <div class="text-center">
-        <h1 class="display-3 fw-bold text-primary">
-          <span id="Temperature"></span>ºC
-        </h1>
-
-        <!-- <h4 class="text-secondary">
-          <span id="weather"></span>
-        </h4> -->
-
-        <p class="text-muted text-capitalize">
-          <span id="type"></span>
-        </p>
-      </div>
-
       <div
-        class="d-flex flex-column justify-content-between align-items-center gap-4 w-100"
+        class="d-flex flex-column justify-content-between align-items-center gap-4 weatDiv"
       >
+        <div class="text-center">
+          <h1 class="display-2 fw-bold text-primary m-0">
+            <span id="Temperature"></span>ºC
+          </h1>
+
+          <!-- <h4 class="text-dark fw-semibold mt-2">
+            <span id="weather"></span>
+          </h4> -->
+
+          <p class="text-secondary text-capitalize fs-5">
+            <span id="type"></span>
+          </p>
+        </div>
+
         <div class="d-flex justify-content-between gap-4 w-100">
           <div
-            class="bg-light rounded-4 p-4 w-50 d-flex flex-column gap-2 shadow-sm"
+            class="d-flex flex-column gap-3 bg-light rounded-4 p-4 shadow-sm w-50"
           >
-            <label class="fw-semibold">
-              <i class="bi bi-thermometer-half text-danger"></i>
-              Feels Like :
+            <label
+              class="d-flex justify-content-between align-items-center fw-semibold"
+            >
+              <span>
+                <i class="bi bi-thermometer-half text-danger me-2"></i>
+                Feels Like
+              </span>
+
               <span id="feels"></span>ºC
             </label>
 
-            <label class="fw-semibold">
-              <i class="bi bi-thermometer-low text-info"></i>
-              Min Temp :
+            <label
+              class="d-flex justify-content-between align-items-center fw-semibold"
+            >
+              <span>
+                <i class="bi bi-thermometer-low text-info me-2"></i>
+                Min Temp
+              </span>
+
               <span id="min_temp"></span>ºC
             </label>
 
-            <label class="fw-semibold">
-              <i class="bi bi-moisture text-primary"></i>
-              Humidity :
+            <label
+              class="d-flex justify-content-between align-items-center fw-semibold"
+            >
+              <span>
+                <i class="bi bi-moisture text-primary me-2"></i>
+                Humidity
+              </span>
+
               <span id="humid"></span>%
             </label>
           </div>
 
           <div
-            class="bg-light rounded-4 p-4 w-50 d-flex flex-column gap-2 shadow-sm"
+            class="d-flex flex-column gap-3 bg-light rounded-4 p-4 shadow-sm w-50"
           >
-            <label class="fw-semibold">
-              <i class="bi bi-wind text-success"></i>
-              Speed :
-              <span id="speed"></span> km/h
-            </label>
+            <label
+              class="d-flex justify-content-between align-items-center fw-semibold"
+            >
+              <span>
+                <i class="bi bi-thermometer-high text-warning me-2"></i>
+                Max Temp
+              </span>
 
-            <label class="fw-semibold">
-              <i class="bi bi-thermometer-high text-warning"></i>
-              Max Temp :
               <span id="max_temp"></span>ºC
             </label>
 
-            <label class="fw-semibold">
-              <i class="bi bi-cloud-fill text-secondary"></i>
-              Weather :
+            <label
+              class="d-flex justify-content-between align-items-center fw-semibold"
+            >
+              <span>
+                <i class="bi bi-wind text-success me-2"></i>
+                Wind Speed
+              </span>
+
+              <span id="speed"></span> km/h
+            </label>
+
+            <label
+              class="d-flex justify-content-between align-items-center fw-semibold"
+            >
+              <span>
+                <i class="bi bi-cloud-fill text-secondary me-2"></i>
+                Weather
+              </span>
+
               <span id="weather"></span>
             </label>
           </div>
