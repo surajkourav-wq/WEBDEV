@@ -1,0 +1,122 @@
+[
+  {
+    "Country": "UNITED STATES",
+    "Currency_Name": "US Dollar",
+    "Currency_Code": "usd",
+    "Country_Code": "US"
+  },
+  {
+    "Country": "INDIA",
+    "Currency_Name": "Indian Rupee",
+    "Currency_Code": "inr",
+    "Country_Code": "IN"
+  },
+  {
+    "Country": "UNITED KINGDOM",
+    "Currency_Name": "Pound Sterling",
+    "Currency_Code": "gbp",
+    "Country_Code": "GB"
+  },
+  {
+    "Country": "EUROPEAN UNION",
+    "Currency_Name": "Euro",
+    "Currency_Code": "eur",
+    "Country_Code": "EU"
+  },
+  {
+    "Country": "JAPAN",
+    "Currency_Name": "Japanese Yen",
+    "Currency_Code": "jpy",
+    "Country_Code": "JP"
+  },
+  {
+    "Country": "CHINA",
+    "Currency_Name": "Chinese Yuan",
+    "Currency_Code": "cny",
+    "Country_Code": "CN"
+  },
+  {
+    "Country": "CANADA",
+    "Currency_Name": "Canadian Dollar",
+    "Currency_Code": "cad",
+    "Country_Code": "CA"
+  },
+  {
+    "Country": "AUSTRALIA",
+    "Currency_Name": "Australian Dollar",
+    "Currency_Code": "aud",
+    "Country_Code": "AU"
+  },
+  {
+    "Country": "BRAZIL",
+    "Currency_Name": "Brazilian Real",
+    "Currency_Code": "brl",
+    "Country_Code": "BR"
+  },
+  {
+    "Country": "RUSSIA",
+    "Currency_Name": "Russian Ruble",
+    "Currency_Code": "rub",
+    "Country_Code": "RU"
+  },
+  {
+    "Country": "SOUTH AFRICA",
+    "Currency_Name": "South African Rand",
+    "Currency_Code": "zar",
+    "Country_Code": "ZA"
+  },
+  {
+    "Country": "SINGAPORE",
+    "Currency_Name": "Singapore Dollar",
+    "Currency_Code": "sgd",
+    "Country_Code": "SG"
+  },
+  {
+    "Country": "UNITED ARAB EMIRATES",
+    "Currency_Name": "UAE Dirham",
+    "Currency_Code": "aed",
+    "Country_Code": "AE"
+  },
+  {
+    "Country": "SAUDI ARABIA",
+    "Currency_Name": "Saudi Riyal",
+    "Currency_Code": "sar",
+    "Country_Code": "SA"
+  },
+  {
+    "Country": "PAKISTAN",
+    "Currency_Name": "Pakistani Rupee",
+    "Currency_Code": "pkr",
+    "Country_Code": "PK"
+  },
+  {
+    "Country": "BANGLADESH",
+    "Currency_Name": "Bangladeshi Taka",
+    "Currency_Code": "bdt",
+    "Country_Code": "BD"
+  },
+  {
+    "Country": "NEPAL",
+    "Currency_Name": "Nepalese Rupee",
+    "Currency_Code": "npr",
+    "Country_Code": "NP"
+  },
+  {
+    "Country": "SRI LANKA",
+    "Currency_Name": "Sri Lankan Rupee",
+    "Currency_Code": "lkr",
+    "Country_Code": "LK"
+  },
+  {
+    "Country": "THAILAND",
+    "Currency_Name": "Thai Baht",
+    "Currency_Code": "thb",
+    "Country_Code": "TH"
+  },
+  {
+    "Country": "SOUTH KOREA",
+    "Currency_Name": "South Korean Won",
+    "Currency_Code": "krw",
+    "Country_Code": "KR"
+  }
+]
