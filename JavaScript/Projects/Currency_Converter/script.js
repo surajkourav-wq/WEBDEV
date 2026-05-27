@@ -56,8 +56,6 @@ async function loadCountries() {
     country2.append(option2);
   });
 
-  // Default Countries
-
   country1.value = "";
 
   country2.value = "";
@@ -73,10 +71,15 @@ function updateFlag(selectTag, flagTag) {
   const value = selectTag.value;
 
   if (value === "") {
-    flagTag.src = "https://via.placeholder.com/64";
+    // flagTag.src = "https://via.placeholder.com/64";
+    flag1.classList.add("d-none");
+    flag2.classList.add("d-none");
 
     return;
   }
+
+  flag1.classList.remove("d-none");
+  flag2.classList.remove("d-none");
 
   const countryCode = value.split(",")[1];
 
@@ -211,4 +214,12 @@ swapBtn.addEventListener("click", () => {
 
 orgAmount.addEventListener("input", () => {
   amountError.innerText = "";
+});
+
+document.addEventListener("keydown", function (event) {
+  const key = event.key;
+
+  if (key === "Enter") {
+    convertCurrency();
+  }
 });
