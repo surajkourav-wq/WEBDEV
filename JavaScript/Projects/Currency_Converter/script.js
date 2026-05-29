@@ -71,7 +71,6 @@ function updateFlag(selectTag, flagTag) {
   const value = selectTag.value;
 
   if (value === "") {
-    // flagTag.src = "https://via.placeholder.com/64";
     flag1.classList.add("d-none");
     flag2.classList.add("d-none");
 
