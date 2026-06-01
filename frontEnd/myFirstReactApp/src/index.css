@@ -3,24 +3,10 @@
   padding: 0;
 }
 
-#abcd {
-  background-color: red;
-  height: 25vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.container {
+  height: 80vh;
 }
 
-#header {
-  background-color: aqua;
-  display: flex;
-  justify-content: center;
-  height: 25vh;
-}
-
-#footer {
-  background-color: blue;
-  display: flex;
-  justify-content: center;
-  height: 25vh;
+a{
+  text-decoration: none !important;
 }
