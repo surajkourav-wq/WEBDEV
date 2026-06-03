@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { FaWifi } from "react-icons/fa";
 
 function Header() {
     return (

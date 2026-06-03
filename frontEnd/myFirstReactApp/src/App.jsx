@@ -7,6 +7,7 @@ import ContactUs from "./pages/ContactUs";
 import Login from "./pages/Login";
 import Product from "./pages/Product";
 import Register from "./pages/Register";
+import heroBg from "./assets/hero-bg.jpg"
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -25,6 +26,8 @@ function App() {
           <Route path="/register" element={<Register />} />
         </Routes>
       </BrowserRouter>
+
+      <img src={heroBg} alt="" className="w-100 h-100" />
 
       <Footer />
 
