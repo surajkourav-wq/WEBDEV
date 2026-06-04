@@ -28,9 +28,6 @@ function App() {
       </BrowserRouter>
 
       <img src={heroBg} alt="" className="w-100 h-100" />
-
-      <Footer />
-
     </>
   )
 }
