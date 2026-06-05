@@ -9,13 +9,18 @@ import Product from "./pages/Product";
 import Register from "./pages/Register";
 import heroBg from "./assets/hero-bg.jpg"
 
+import LoginPage from "./pages/LoginPage";
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
+  
   return (
     <>
       <BrowserRouter>
         <Header />
+
+        <LoginPage />
 
         <Routes>
           <Route path="/" element={<Home />} />
