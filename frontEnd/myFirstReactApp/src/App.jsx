@@ -20,8 +20,6 @@ function App() {
       <BrowserRouter>
         <Header />
 
-        <LoginPage />
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -32,7 +30,9 @@ function App() {
         </Routes>
       </BrowserRouter>
 
-      <img src={heroBg} alt="" className="w-100 h-100" />
+      {/* <img src={heroBg} alt="" className="w-100 h-100" /> */}
+
+      {/* <LoginPage /> */}
     </>
   )
 }
