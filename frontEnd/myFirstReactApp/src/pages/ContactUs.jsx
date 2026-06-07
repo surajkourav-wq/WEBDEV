@@ -42,24 +42,6 @@ function ContactUs() {
                             onChange={(e) => setEmail(e.target.value)}
                         />
                         <br />
-                        <label htmlFor="password">Password</label>
-                        <input
-                            type="text"
-                            name="password"
-                            className="form-control"
-                            value={password}
-                            onChange={(e) => setPassword(e.target.value)}
-                        />
-                        <br />
-                        <label htmlFor="confirmPass">Confirm Password</label>
-                        <input
-                            type="password"
-                            name="confirmPass"
-                            className="form-control"
-                            value={confirmPass}
-                            onChange={(e) => setConfirmPass(e.target.value)}
-                        />
-                        <br />
                         <div className="text-end">
                             <button type="submit" className="btn btn-primary">
                                 Register
