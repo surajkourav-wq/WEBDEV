@@ -21,6 +21,10 @@ const App = () => {
       </div>
 
       <GridExample />
+
+      <div className="p-3 m-3 bg-linear-to-r from-red-600 to-blue-600 text-center">
+        something something
+      </div>
     </>
   )
 }
