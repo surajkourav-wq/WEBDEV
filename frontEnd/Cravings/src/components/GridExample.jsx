@@ -1,0 +1,23 @@
+const GridExample = () => {
+    return (
+        <>
+            <div className="grid grid-cols-3 gap-5 mt-3">
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+                <div className="border p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dignissimos doloremque voluptatum eum odit, doloribus vel totam neque, porro adipisci sunt. Amet vitae mollitia blanditiis laborum odio quam reiciendis, est consequatur ab aperiam! Error modi quos perferendis alias! Quasi, fugit!</div>
+            </div>
+        </>
+    );
+}
+
+export default GridExample

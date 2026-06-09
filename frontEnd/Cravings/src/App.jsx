@@ -1,11 +1,12 @@
 import logo from "../src/assets/logo-light.png";
+import GridExample from "./components/GridExample";
 
 const App = () => {
   return (
     <>
       <div className="bg-[#c2410c] h-16 flex justify-between items-center sticky">
         <div className="w-25 pt-2 ps-5">
-          <img src= {logo} alt="" />
+          <img src= {logo} alt="Cravings logo" />
         </div>
 
         <div className="flex gap-5 pe-8">
@@ -18,6 +19,8 @@ const App = () => {
         <div className="bg-[url('hero-bg.jpg')] h-screen w-full bg-cover">
         </div>
       </div>
+
+      <GridExample />
     </>
   )
 }
