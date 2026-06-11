@@ -4,7 +4,7 @@ const ContactUs = () => {
   return (
     <>
       <div>
-        bfhvhjf dvhjsbhjsebfh
+        Contact Us
       </div>
     </>
   )
